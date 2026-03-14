@@ -379,19 +379,6 @@ The response is delivered as **text and voice guidance**.
 
 ---
 
-## Step 6: Ask Questions Using Voice
-
-Farmers can interact with the system by speaking.
-
-Examples:
-
-```
-What is the treatment for this disease?
-How can I prevent this disease?
-Explain the symptoms.
-```
-
----
 
 # 📋 System Requirements
 
