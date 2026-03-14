@@ -1,0 +1,22 @@
+diff --git a/node_modules/react-native-tts/android/build.gradle b/node_modules/react-native-tts/android/build.gradle
+index dbbe046..0071b74 100644
+--- a/node_modules/react-native-tts/android/build.gradle
++++ b/node_modules/react-native-tts/android/build.gradle
+@@ -4,7 +4,8 @@ def safeExtGet(prop, fallback) {
+ 
+ buildscript {
+     repositories {
+-        jcenter()
++        google()
++        mavenCentral()
+     }
+ 
+     dependencies {
+@@ -27,6 +28,7 @@ android {
+ }
+ 
+ repositories {
++    google()
+     mavenCentral()
+ }
+ 
